@@ -1,0 +1,151 @@
+
+/* CONTACT PAGE -------------------------------------------------------- CONTACT PAGE */
+
+ul.pagination {
+    float: left;
+    list-style: none;
+    margin-left: 0;
+    padding: 4px 0 0 0;
+    width: auto;
+    }
+ul.pagination li {
+    float: left;
+    line-height: 16px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+ul.pagination li a {
+    font-size: 1.4em;
+    color: #aeaeae;
+    text-decoration:none;
+    letter-spacing: -1px;
+    height: 38px;
+    display: block;
+}
+
+ul.pagination li a span{
+    padding: 8px 12px;
+    height: 38px;
+    display: block;
+}
+
+ul.pagination li.active  a{
+    background: url(art/filterbg.gif) no-repeat top right;
+
+}
+
+ul.pagination li.active a span {
+    background: url(art/filterbgleft.gif) no-repeat;
+}
+
+
+#content-carousel {
+    background: #161616;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    @include border-radius(4px);
+    position: relative;
+    border: 4px solid #161616;
+}
+
+#content-carousel ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+#content-carousel li {
+    margin: 0;
+    padding: 10px 10px 10px 30px;
+    width: 100%;
+}
+
+
+#content-carousel li div {
+    float: left;
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+#content-carousel li div.textarea {
+    width: 100%;
+    display: block;
+    height: auto;
+    clear: both;
+}
+
+#content-carousel li div label {
+    width: 90%;
+    display: block;
+    padding: 6px 0;
+    font-size: 1.2em;
+}
+
+
+#content-carousel li div label.error {
+    color: #F00;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: auto;
+}
+
+#content-carousel li div input {
+    width: 90%;
+    background: #282828;
+    @include border-radius(4px);
+    color: #CCC;
+    border: 4px solid #282828;
+    padding: 4px;
+}
+
+#content-carousel li div.radio label {
+    padding-bottom: 12px;
+}
+
+#content-carousel li div.radio span {
+    font-size: 1.2em;
+    width: 10%;
+    color: #CCC;
+    float: left;
+}
+
+#content-carousel li div.radio input {
+    width: auto;
+    background: none;
+    border: 0;
+    float: left;
+}
+
+#content-carousel li div textarea {
+    width: 100%;
+    background: #444;
+    @include border-radius(4px);
+    color: #CCC;
+    border: 4px solid #444;
+    height: 10%;
+
+    padding: 4px;
+}
+
+
+#content-carousel li button {
+    width: 135px;
+    height: 36px;
+    clear: both;
+    background: url(art/submit-btn.gif) no-repeat;
+    text-indent: -9999px;
+    margin: 10px 0 0 0;
+    position: relative;
+    border: 0;
+    display: block;
+    float: left;
+}
+
+#content-carousel li button:hover {
+    background: url(art/submit-btn.gif) no-repeat 0 -37px;
+}

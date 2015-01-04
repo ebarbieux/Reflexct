@@ -1,0 +1,167 @@
+/*---------------------------------------------- GLOBAL SETTINGS */
+*{ @include box-sizing(border-box);}
+html {
+
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: .75em;
+    background: #161616;
+    color: #fff;
+}
+
+.hero-holder img{
+    max-width: 100%;
+    height: auto;
+}
+
+.supersized-me{
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+     opacity:0.8;
+     background: #000;
+     overflow: hidden;
+}
+/*-------------------------------------------------------- LINK */
+
+
+a {
+    color: #999;
+    text-decoration:underline;
+}
+
+a:hover {
+    color: #bbb;
+}
+
+/*---------------------------------------------------- HEADINGS */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:normal;
+    margin:0pt;
+    padding:0pt;
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 0 0 10px 0;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-size: 2.2em;
+    padding: 0 0 8px 0;
+}
+
+h3 {
+    font-size: 1.6em;
+    padding: 0 0 6px 0;
+}
+
+h4 {
+    font-size: 1.3em;
+    padding: 0 0 5px 0;
+}
+
+h5 {
+    font-size: 1.2em;
+    padding: 0 0 4px 0;
+}
+
+h6 {
+    font-size: 1em;
+    padding: 0 0 2px 0;
+}
+
+/*-------------------------------------------------- PARAGRAPHS */
+
+p {
+    font-size: 110%;
+    line-height: 1.6em;
+    padding: 0 0 1.25em 0;
+}
+
+
+/* LISTS -------------------------------------------------------- LISTS */
+
+ul, ol {
+    padding:0 0 1.25em 2.5em;
+}
+
+.content li {
+    font-size: 100%;
+    line-height: 1.6em;
+}
+
+.main-content li {
+    font-size: 110%;
+}
+
+
+
+.main-content li li {
+    font-size: 100%;
+}
+
+
+/*-- nested lists --*/
+
+.content ul ul {
+    padding: 0 0 0 1.5em;
+}
+
+.content ol ol {
+    padding: 0 0 0 1.5em;
+}
+
+.blog .content {
+    #background: #fff;
+    #border-top: 4px solid #fff;
+}
+
+
+.content-top {
+    position: relative;
+}
+
+.content-top h1 {
+    float: left;
+}
+
+.top-panel h2 {
+    float: left;
+    padding: 6px 0;
+    font-size: 2.2em;
+}
+
+.top-panel h3 {
+    font-size: 2.8em;
+    color: #707070;
+    float: left;
+    padding: 0 0 14px 0;
+    margin: 0 15px 0 0;
+}
+
+
+.home .main-content {
+    // margin: 0;
+}
+
+.main-content {
+    margin: 30px 0;
+    clear: both;
+    line-height: 2em;
+}
+
+/* CUSTOM CLASSES -------------------------------------- CUSTOM CLASSES */
+
+.clear {
+    clear: both;
+}
+
+/* HOMEPAGE SLIDER -------------------------------------------------------- HOMEPAGE SLIDER */

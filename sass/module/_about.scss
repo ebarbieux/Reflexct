@@ -1,0 +1,118 @@
+.rule {
+    width: 920px;
+    padding: 10px 0 ;
+    background: url(art/horizontal-line.gif) repeat-x 0 10px;
+    clear: both;
+}
+
+.about-column {
+    float: left;
+    /*width: 292px ;*/
+    display: block;
+    margin: 0 0 0 22px;
+}
+
+a#read-blog.fadeThis {
+    width: 122px;
+    height: 37px;
+    display: block;
+    background: url(art/read-blog-btn.gif) no-repeat;
+    text-indent: -9999px;
+    margin: 8px 0 0 0;
+    position: relative;
+}
+
+a#read-blog.fadeThis span.hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 122px;
+    height: 37px;
+    background: url(art/read-blog-btn.gif) no-repeat 0 -37px;
+    }
+
+    .about-column h2 {
+    width: 114px;
+    height: 25px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.about-column h2#specialise {
+    background: url(art/specialise.gif) no-repeat;
+}
+
+.about-column h2#enjoy {
+    background: url(art/enjoy.gif) no-repeat;
+}
+
+.about-column h2#colophon {
+    background: url(art/colophon.gif) no-repeat;
+}
+
+.about .main-content h2 {
+    font-size: 1.7em;
+    color: #909090;
+    padding: 0 0 20px;
+}
+
+
+.about .main-content h3 {
+    font-size: 1.4em;
+    color: #909090;
+    line-height: 1.3em;
+    padding: 0 0 20px;
+}
+
+.about .main-content .wonder{
+    display: inline-block;
+}
+
+.about .main-content h3 img{
+    width: 100%;
+    height: 24px;
+    padding: 10px auto;
+}
+
+.about-columns {
+    float: left;
+    margin: 20px 0 0 -22px;
+}
+
+.about-column {
+    float: left;
+    width: 292px ;
+    display: block;
+    margin: 0 0 0 22px;
+}
+
+.about .main-content .about-column h2 {
+    color: #fff;
+}
+
+.about-column ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.about-column li {
+    width: 267px;
+    background: #333;
+    border-left: 5px solid #222;
+    padding: 5px 10px;
+    float: left;
+    margin: 0 0 1px 0;
+    color: #aaa;
+}
+
+.about-column li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-column li a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}

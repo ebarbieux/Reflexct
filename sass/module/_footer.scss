@@ -1,0 +1,45 @@
+.footer {
+    width: 100%;
+    height: 160px;
+    display: block;
+    background: #161616;
+}
+
+.footer-inner {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.footer p {
+    color: #717171;
+    padding: 0 0 10px 0;
+    font-size: 1.1em;
+}
+
+.footer p.small {
+    color: #bababa;
+    font-size: .9em;
+}
+
+.footer p.small a {
+    color: #eee;
+}
+
+.footer a {
+    color: #c4c4c4;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #eee;
+}
+
+.column{
+    padding: 0 20px 0 0;
+    background: url(art/footer-line.gif) repeat-y top right;
+    height: 120px;
+    display: inline;
+    float: left;
+    margin: 0 20px 0 0;
+}

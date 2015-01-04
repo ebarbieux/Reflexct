@@ -1,0 +1,19 @@
+a#view-portfolio.fadeThis {
+    width: 142px;
+    height: 37px;
+    display: block;
+    background: url(art/view-portfolio-btn.gif) no-repeat;
+    text-indent: -9999px;
+    margin: 8px 0 0 0;
+    position: relative;
+}
+
+a#view-portfolio.fadeThis span.hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 142px;
+    height: 37px;
+    background: url(art/view-portfolio-btn.gif) no-repeat 0 -37px;
+}

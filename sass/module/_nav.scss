@@ -1,0 +1,97 @@
+@media only screen and (min-width: 1140px) {
+    .nav {
+        position: absolute;
+        top: 65px;
+        right: 0;
+        width: 487px;
+        height: 61px;
+    }
+}
+    .nav ul {
+        float: left;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .nav li {
+        float: left;
+        width: auto;
+    }
+
+    .nav a {
+        display: block;
+        width: auto;
+        background-position:  0 0;
+        text-indent: -9999px;
+        height: 21px;
+        background: url(art/nav.png) no-repeat 0 0;
+    }
+
+    .blog .nav a {
+        background: url(art/nav-blog.png) no-repeat 0 0;
+    }
+
+    .nav a#home {
+        width: 61px
+    }
+
+    .nav a#home:hover {
+        background-position:  0 -21px;
+    }
+
+    .nav a#home.active {
+        background-position:  0 -42px;
+    }
+
+    .nav a#about {
+        width: 99px;
+        background-position:  -61px 0;
+    }
+
+    .nav a#about:hover {
+        background-position:  -61px -21px;
+    }
+
+    .nav a#about.active {
+        background-position:  -61px -42px;
+    }
+
+    .nav a#portfolio {
+        width: 138px;
+        background-position:  -160px 0;
+    }
+
+    .nav a#portfolio:hover {
+        background-position:  -160px -21px;
+    }
+
+    .nav a#portfolio.active {
+        background-position:  -160px -42px;
+    }
+
+    .nav a#blog {
+        width: 89px;
+        background-position:  -298px 0;
+    }
+
+    .nav a#blog:hover {
+        background-position:  -298px -21px;
+    }
+
+    .nav a#blog.active {
+        background-position:  -298px -42px;
+    }
+
+    .nav a#contact {
+        width: 100px;
+        background-position:  -387px 0;
+    }
+
+    .nav a#contact:hover {
+        background-position:  -387px -21px;
+    }
+
+    .nav a#contact.active {
+        background-position:  -387px -42px;
+    }

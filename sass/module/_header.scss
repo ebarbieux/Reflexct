@@ -1,0 +1,114 @@
+.header {
+    width: 100%;
+    overflow: hidden;
+    height: 364px;
+    background: #161616;
+    @include background-size(cover);
+}
+
+@media only screen and (min-width: 1140px) {
+    .home .header .hero-holder {
+            position:absolute;
+            top: 120px;
+            left: 10%;
+            width: 80%;
+            z-index: 100;
+            height: 330px;
+            padding-bottom: 10px auto;
+    }
+
+    .home .header .hero-holder img {
+            width: 100%;
+            height: 333px;
+            position: relative;
+     }
+
+     .home .header {
+        height: 530px;
+     }
+}
+
+.about .header {
+    background: url(art/headers/about.jpg) #161616 no-repeat top center;
+
+}
+
+.portfolio .header {
+    background: url(art/headers/portfolio.jpg) #161212 no-repeat top center;
+}
+
+.blog .header {
+    background: url(art/headers/blog.jpg) no-repeat #000 top center;
+}
+
+.not-found .header {
+    background: url(art/headers/404.jpg) no-repeat #090909 top center;
+}
+
+.contact .header {
+    background: url(art/headers/contact.jpg) no-repeat #161616 top center;
+}
+
+.header-inner {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-inner h1 {
+    position: absolute;
+    left: 20px;
+    top: 210px;
+}
+
+.header h1 {
+    width: 300px;
+    height: 35px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.home .content-top h1 {
+    width: 502px;
+    height: 43px;
+    display: block;
+    background: url(art/home-heading.png) 0 5px no-repeat;
+    text-indent: -9999px;
+    position: relative;
+}
+
+.portfolio .top-panel h3 {
+    width: 91px;
+    height: 28px;
+    display: block;
+    text-indent: -9999px;
+}
+
+
+.contact .top-panel h3 {
+    width: 205px;
+    height: 44px;
+    display: block;
+    background: url(art/contact-heading.gif) no-repeat;
+    text-indent: -9999px;
+}
+
+.about  .header h1 {
+    background: url(art/about-title.png) no-repeat;
+}
+
+.portfolio .header h1 {
+    background: url(art/portfolio-title.png) no-repeat;
+}
+
+.blog .header h1 {
+    background: url(art/blog-title.png) no-repeat;
+}
+
+.contact  .header h1 {
+    background: url(art/contact-title.png) no-repeat;
+}
+
+.not-found .header h1 {
+    background: url(art/404-title.png) no-repeat;
+}

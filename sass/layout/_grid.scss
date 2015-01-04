@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    background: #282828;
+    display: block;
+    position: relative;
+    @include clearfix;
+}
+@media only screen and (min-width: 768px) {
+    .content {
+        width: 80%;
+        display: block;
+        margin: -82px auto 0;
+        min-height: 200px;
+        padding: 10px 20px;
+        background: #282828;
+        @include border-radius(4px);
+        border-top: 4px solid #282828;
+    }
+}
+
+.container .blog {
+    #background: #fff;
+    #color: #4c4c4c;
+}
+
+
+
+a.logo {
+    width: 272px;
+    height: 102px;
+    display: block;
+    background: url(art/logo.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.blog a .logo {
+    background: url(art/logo.png) no-repeat;
+}
+
