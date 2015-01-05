@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/app.css">
-        <link rel="author" href="humans.txt" />
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
         <?php
@@ -38,18 +37,18 @@
         		}
         		print('</ul>');
         ?>
-        <script src="http://refle-x-ction.com/facelift/flir.js" type="text/javascript"></script>
-        	<style>
-        	  .wonder { font-family: 'wonderland', arial, serif;
-        				font-size: 25px;	  }
-        	  .creator { font-family: 'creator', arial, serif;
-        				 font-size: 45px; }
-        	  .cowboy { font-family: 'deutsch', arial, serif;
-        				 font-size: 45px; }
-        	  .desc { float: left;
-        			  margin: 0 0 20px 150px;
-        	  }
-        	</style>
+       <script src="http://refle-x-ction.com/facelift/flir.js" type="text/javascript"></script>
+    <style>
+        .wonder { font-family: 'wonderland', arial, serif;
+            font-size: 25px; }
+        .creator { font-family: 'creator', arial, serif;
+             font-size: 45px; }
+        .cowboy { font-family: 'deutsch', arial, serif;
+             font-size: 45px; }
+        .desc { float: left;
+            margin: 0 0 20px 150px;
+        }
+    </style>
 
           <link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
           <link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />

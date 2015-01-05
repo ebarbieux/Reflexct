@@ -1,7 +1,5 @@
 
-		<h3>
-			<span class="wonder">Il est important d'avoir des r&ecirc;ves assez grands pour ne pas les perdre de vue lorsqu'on les poursuit [Oscar Wilde]</span>
-		</h3>
+		<span class="wonder">Il est important d'avoir des r&ecirc;ves assez grands pour ne pas les perdre de vue lorsqu'on les poursuit [Oscar Wilde]</span>
 		<div class="profile"><img style="float:left; margin: 30px 0 0 100px;" title="moi" src="css/art/profile.jpg" alt="My Profile Image" /></div>
 		<div class="desc"><p><span class="creator">R</span>eflets</p>
 			<p><span class="creator">E</span>motions</p>
