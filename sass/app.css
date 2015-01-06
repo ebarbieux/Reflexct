@@ -133,18 +133,18 @@ ul, ol {
   overflow: hidden;
   *zoom: 1; }
 
-.content {
-  width: 80%;
-  display: block;
-  margin: -82px auto 0;
-  min-height: 200px;
-  padding: 10px 20px;
-  background: #282828;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  border-top: 4px solid #282828; }
-
+@media only screen and (min-width: 768px) {
+  .content {
+    width: 80%;
+    display: block;
+    margin: -82px auto 0;
+    min-height: 200px;
+    padding: 10px 20px;
+    background: #282828;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border-top: 4px solid #282828; } }
 .container .blog {
   #background: #fff;
   #color: #4c4c4c; }
@@ -159,6 +159,17 @@ a.logo {
 .blog a .logo {
   background: url(art/logo.png) no-repeat; }
 
+@media only screen and (min-width: 480px) {
+  /* ====================
+      INTERMEDIATE: Menu
+     ==================== */
+  .nav {
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 60px;
+    padding-top: 20px;
+    margin-left: 10px; } }
 /* Modules */
 .header {
   width: 100%;
@@ -169,19 +180,24 @@ a.logo {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover; }
-  .header .hero-holder {
+
+@media only screen and (min-width: 1140px) {
+  .home .header .hero-holder {
     position: absolute;
-    top: 110px;
+    top: 120px;
     left: 10%;
     width: 80%;
-    display: block;
     z-index: 100;
     height: 330px;
-    background: url(art/heroholder.png) no-repeat top center; }
+    padding-bottom: 10px auto; }
 
-.home .header {
-  height: 527px; }
+  .home .header .hero-holder img {
+    width: 100%;
+    height: 333px;
+    position: relative; }
 
+  .home .header {
+    height: 530px; } }
 .about .header {
   background: url(art/headers/about.jpg) #161616 no-repeat top center; }
 
@@ -249,13 +265,13 @@ a.logo {
 .not-found .header h1 {
   background: url(art/404-title.png) no-repeat; }
 
-.nav {
-  position: absolute;
-  top: 65px;
-  right: 0;
-  width: 487px;
-  height: 61px; }
-
+@media only screen and (min-width: 1140px) {
+  .nav {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    width: 487px;
+    height: 61px; } }
 .nav ul {
   float: left;
   padding: 0;
@@ -326,6 +342,83 @@ a.logo {
 .nav a#contact.active {
   background-position: -387px -42px; }
 
+.icon-sprite, .icon-back, .icon-bg-black, .icon-bg-hover, .icon-button-tray-down, .icon-button-tray-up, .icon-forward, .icon-nav-bg, .icon-nav-dot, .icon-pause, .icon-play, .icon-progress-back, .icon-progress-bar, .icon-thumb-back, .icon-thumb-forward {
+  background-image: url('../img/icon-s270cb8837e.png');
+  background-repeat: no-repeat; }
+
+.icon-back {
+  background-position: 0 0;
+  height: 43px;
+  width: 43px; }
+
+.icon-bg-black {
+  background-position: 0 -43px;
+  height: 100px;
+  width: 100px; }
+
+.icon-bg-hover {
+  background-position: 0 -143px;
+  height: 34px;
+  width: 1px; }
+
+.icon-button-tray-down {
+  background-position: 0 -177px;
+  height: 42px;
+  width: 54px; }
+
+.icon-button-tray-up {
+  background-position: 0 -219px;
+  height: 42px;
+  width: 54px; }
+
+.icon-forward {
+  background-position: 0 -261px;
+  height: 43px;
+  width: 43px; }
+
+.icon-nav-bg {
+  background-position: 0 -304px;
+  height: 44px;
+  width: 1px; }
+
+.icon-nav-dot {
+  background-position: 0 -348px;
+  height: 36px;
+  width: 12px; }
+
+.icon-pause {
+  background-position: 0 -384px;
+  height: 42px;
+  width: 54px; }
+
+.icon-play {
+  background-position: 0 -426px;
+  height: 42px;
+  width: 54px; }
+
+.icon-progress-back {
+  background-position: 0 -468px;
+  height: 8px;
+  width: 1px; }
+
+.icon-progress-bar {
+  background-position: 0 -476px;
+  height: 8px;
+  width: 1px; }
+
+.icon-thumb-back {
+  background-position: 0 -484px;
+  height: 28px;
+  width: 28px; }
+
+.icon-thumb-forward {
+  background-position: 0 -512px;
+  height: 28px;
+  width: 28px; }
+
+.icon {
+  display: inline-block; }
+
 .rule {
   width: 920px;
   padding: 10px 0;
@@ -381,6 +474,14 @@ a#read-blog.fadeThis span.hover {
   color: #909090;
   line-height: 1.3em;
   padding: 0 0 20px; }
+
+.about .main-content .wonder {
+  display: inline-block; }
+
+.about .main-content .wonder img {
+  width: 100%;
+  height: 24px;
+  padding: 10px auto; }
 
 .about-columns {
   float: left;
